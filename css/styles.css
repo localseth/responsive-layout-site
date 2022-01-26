@@ -165,6 +165,10 @@ h2.item {
     align-self: baseline;
 }
 
+.pro-pic img {
+    border-radius: 1rem;
+}
+
 /* Layout Containers ----------------------- */
 
 .main-header,
@@ -183,6 +187,7 @@ h2.item {
 
 .portfolio img {
     order: -1;
+    border-radius: 1rem;
 }
 
 .portfolio article {
@@ -195,7 +200,7 @@ h2.item {
     align-items: stretch;
     margin: 13px;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 1rem;
 }
 
 .container .item {
@@ -232,7 +237,7 @@ h2.item {
 }
 
 .main-footer {
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-align: center;
     padding: 2em 0;
     display: flex;
@@ -290,7 +295,7 @@ figure {
     }
     
     h3 {
-        font-size: 1.625rem;
+        font-size: 1.25rem;
         font-weight: 500;
     }
     
@@ -332,6 +337,7 @@ figure {
     .pro-pic img {
         max-width: 400px;
         flex-grow: 4;
+        border-radius: 1rem;
     }
 
     .bio {
@@ -372,7 +378,7 @@ figure {
         justify-content: space-between;
         flex-grow: 2;
         min-width: 20vw;
-        max-width: 60%;
+        max-width: 50%;
     }
     
     h3.showhide {
