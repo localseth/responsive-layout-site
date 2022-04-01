@@ -89,6 +89,7 @@ a:hover {
     border-color:#36acd0;
     color: rgb(151, 151, 151);
     transition: .3s;
+    cursor: pointer;
 }
 
 ul {
@@ -125,7 +126,7 @@ h2.item {
     background-color: #36acd0;
     color: #fafafa;
     font-size: 1.25rem;
-    padding: 5px 8px;
+    padding: 10px 12px;
     margin: 3px 5px;
     border-radius: 3px;
     border-bottom: #afafaf 2px solid;
@@ -137,7 +138,9 @@ h2.item {
 .skills li:hover {
     background-color: #7acae2;
     transition: 3ms;
-    box-shadow: 0px 0px 7px 2px rgba(187, 146, 187, 0.486)
+    /* box-shadow: none; */
+    box-shadow: 0px 0px 7px 2px rgba(187, 146, 187, 0.486);
+    cursor: default;
 }
 
 .last {
